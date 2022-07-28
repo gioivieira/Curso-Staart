@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
+    <h1>Giovana Vieira</h1>
+</header>
+<main>
+    <section>
+        <article>
+            <h2 id="formacao">Formação</h2>
+            <h3>Universidade Cruzeiro do Sul</h3>
+            <p><strong><em>Gestão em Tecnologia da Informação</em></strong></p>
+        </article>
+        <article>
+            <h2 id="habilidades">Habilidades</h2>
+            <ul>
+                <li><img src="" alt=""> </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </article>
+    </section>
+    <aside>
+        <h2>Música favorita do momento</h2>
+
+        <video width="700vw" autoplay muted controls> 
+            <source src="Seafret - Atlantis (Official Video).mp4" type="video/mp4">
+        </video>
+
+        <br><br>
+    </aside>
+
+    <form action="#">
+        
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required="true">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="E-mail" required="true">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Dados Comerciais</legend>
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required="true"> 
+            <label for="url">URL</label>
+            <input type="url" id="url" name="url" placeholder="URL" required="true">        
+        </fieldset> <br><br>
+
+        <select name="selecao" id="selecao">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select> <br><br>
+
+        <textarea name="texto" id="texto" cols="30" rows="5"></textarea> <br><br>
+
+        <input type="submit" value="Enviar mensagem" id="submit">
+    </form>
+
+</main>
+<footer>
+    <h2>Entre em contato</h2>
+</footer>
+</body>
+</html>
